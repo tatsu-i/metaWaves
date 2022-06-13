@@ -35,13 +35,13 @@ file_name = "/tmp/delta.wav"
 brain_beat = BinauralBeat()
 brain_beat.save_beat(
     output_file_name="/tmp/1.wav",
-    frequencys=(100, 104),
+    frequencys=(99, 101),
     play_time=total_time,
     volume=0.3
 )
 brain_beat.save_beat(
     output_file_name="/tmp/2.wav",
-    frequencys=(50, 52),
+    frequencys=(49.5, 50.5),
     play_time=total_time,
     volume=0.3
 )
