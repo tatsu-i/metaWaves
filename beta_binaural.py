@@ -51,4 +51,4 @@ combined_wav = AudioSegment.empty()
 combined_wav += AudioSegment.from_wav(file_name)
 output = noise.overlay(combined_wav, position=0)
 
-output.export("beta_noise.wav", format="wav")
+output.export("wav/beta_noise.wav", format="wav")

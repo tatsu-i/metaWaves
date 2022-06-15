@@ -60,4 +60,4 @@ combined_wav = AudioSegment.empty()
 combined_wav += AudioSegment.from_wav(file_name)
 output = noise.overlay(combined_wav, position=0)
 
-output.export("delta_noise.wav", format="wav")
+output.export("wav/睡眠導入_デルタ波_モノラル.wav", format="wav")

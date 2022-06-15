@@ -25,4 +25,4 @@ brain_beat.save_beat(
 sound1 = AudioSegment.from_file("/tmp/1.wav")
 sound2 = AudioSegment.from_file("/tmp/2.wav")
 output = sound1.overlay(sound2, position=0)
-output.export("delta_mono.wav", format="wav")
+output.export("wav/睡眠導入_デルタ波_モノラル.wav", format="wav")
